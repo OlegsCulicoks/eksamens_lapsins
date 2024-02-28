@@ -1,0 +1,80 @@
+body {
+  font-family: 'Kavoon', cursive;
+  background-color: #3baf36;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Kavoon', cursive;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+  color: black;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type="submit"] {
+  background-color: #3baf36;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Kavoon', cursive;
+  
+}
+
+input[type="submit"]:hover {
+  background-color: #398031;
+  font-family: 'Kavoon', cursive;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ffffff;
+  color: black;
+}
+
+th {
+  color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
